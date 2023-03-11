@@ -55,7 +55,7 @@ JsonObject obj = Config.as<JsonObject>();
         html+= "</head>";
         html += "<body>";
         html+= "<div>";
-        html += "<h1>Pius Electronics Extender Config page</h1>";
+        html += "<h1>ESP8266 WiFi Config page</h1>";
         html += "<button onclick=\"window.location.href='/';\">Scan </button>";
         html += "<p>networks found </p>";
         html += "<form action=\"/credentials\">";
